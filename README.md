@@ -17,3 +17,9 @@
 
      curl -v https://www.booleanworld.com/
      
+![image](https://user-images.githubusercontent.com/53860717/143516767-b6215ad6-8947-424f-9b46-b678fc92d6eb.png)
+
+### Most often, we aren’t interested in the response body. You can simply hide it by “saving” the output to the null device, which is /dev/null on Linux and MacOS and NUL on Windows:
+        curl -vo /dev/null https://www.booleanworld.com/ # Linux/MacOS
+        curl -vo NUL https://www.booleanworld.com/ # Windows
+        
