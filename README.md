@@ -1,5 +1,10 @@
 # Curl Advance   https://www.booleanworld.com/curl-command-tutorial-examples/
 
+
+## Port checking with curl command 
+
+    curl telnet://<host>:<port>
+
 ### http request 
 
     curl http://www.facebook.com/
