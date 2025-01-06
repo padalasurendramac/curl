@@ -33,3 +33,5 @@
 ### curl -v --cert adt-nagios.crt --key adt-nagios.key --cacert vh_ca.crt --verbose https://adt.vannahealth.io/receiver/post --data "param1=helo"
 
 
+#### curl -v --cert sg.crt:LetMeIn123! --key sg.key --cacert vh_ca.crt --verbose https://adt.vannahealth.io/receiver/post --data "param1=helo"curl -v --cert sg.crt:LetMeIn123! --key sg.key --cacert vh_ca.crt --verbose https://adt.vannahealth.io/receiver/post --data "param1=helo"
+ 
