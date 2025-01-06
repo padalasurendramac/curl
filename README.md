@@ -27,4 +27,9 @@
 ### Most often, we aren’t interested in the response body. You can simply hide it by “saving” the output to the null device, which is /dev/null on Linux and MacOS and NUL on Windows:
         curl -vo /dev/null https://www.booleanworld.com/ # Linux/MacOS
         curl -vo NUL https://www.booleanworld.com/ # Windows
-        
+
+
+
+### curl -v --cert adt-nagios.crt --key adt-nagios.key --cacert vh_ca.crt --verbose https://adt.vannahealth.io/receiver/post --data "param1=helo"
+
+
